@@ -1,16 +1,16 @@
 import React from "react";
-import "./about.css";
+import "./main.css";
 import SocialContact from "../../common/social-contact/index";
-function About() {
+function Main() {
   return (
-    <div className="about">
-      <div className="about-top">
-        <div className="about-info">
+    <div className="main">
+      <div className="main-top">
+        <div className="main-info">
           Hello There ✋,I am
          <br /> <span className="info-name">Xinyu Shen</span>.
          <br /> I am a Software Engineer.
         </div>
-        <div className="about-photo">
+        <div className="main-photo">
           <img 
             src={require("../../../assets/coding.png")}
             className="picture"
@@ -22,4 +22,4 @@ function About() {
   );
 }
 
-export default About;
+export default Main;
