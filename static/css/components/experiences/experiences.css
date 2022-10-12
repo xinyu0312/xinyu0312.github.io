@@ -1,0 +1,149 @@
+.experiences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+}
+
+.experiences-container {
+  width: 55rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.experiences-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.experiences-content h1 {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: var(--color-accent);
+}
+
+.experiences-details h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: var(--color-accent);
+}
+
+.experiences-details h2 {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: var(--color-text-subtitle-alt);
+}
+
+.experiences-details p {
+  margin-top: 1rem;
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 30rem;
+  color: var(--color-text-main);
+}
+
+.experiences-details ul {
+  margin: 1rem 0 0 1.3rem;
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 30rem;
+  color: var(--color-text-main);
+}
+
+.experiences-timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.experiences-wrapper {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experiences-bar {
+  top: 0;
+  left: 46%;
+  width: 6px;
+  height: 306px;
+  background: var(--color-text-main);
+  border-radius: 30px;
+  position: absolute;
+  z-index: -1;
+}
+
+.experiences-orbs {
+  z-index: 1;
+}
+
+.experiences-orbs img {
+  width: 70px;
+  height: 70px;
+}
+
+.experiences-droplet-container {
+  position: relative;
+}
+
+.experiences-droplet-overlay {
+  z-index: 1;
+}
+
+.experiences-droplet-orb {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.experiences-orb-wrapper {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experiences-orb-time {
+  top: 1.6rem;
+  margin-left: -10rem;
+  position: absolute;
+}
+
+.experiences-orb-icon {
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.experiences-orb-icon:hover {
+  transform: scale(125%);
+  transition-duration: 0.2s;
+}
+
+.experiences-orb-wrapper h2 {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--color-text-title);
+}
