@@ -5,6 +5,12 @@
     padding: 12px;
     position: relative;
     align-items: center;
+
+    background-color: white;
+    position: fixed; 
+    width: 70%;
+    top: 0px;
+    overflow: hidden;
 }
 .menu{
     background-color: white;

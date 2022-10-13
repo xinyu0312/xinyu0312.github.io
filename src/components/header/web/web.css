@@ -7,6 +7,7 @@
     font-size: 20px;
     margin-right: 16px;
     font-weight: 700;
+    scroll-margin-top: 100px;
 }
 
 .web-option a{
@@ -24,3 +25,19 @@
 .web-option:last-child {
     margin-right: 0px;
 }
+
+#about {
+    scroll-margin-top: 100px;
+  }
+
+#work {
+    scroll-margin-top: 80px;
+}
+
+#projects {
+    scroll-margin-top: 100px;
+}
+
+/* #contact {
+    scroll-margin-top: 100px;
+} */

@@ -8,6 +8,12 @@ function Mobile({ isOpen, setIsOpen}) {
     </div>
 
     <div className="mobile-option">
+        <a href="#main">
+        <i class="fi-rr-home option-icon"></i>Home
+        </a>
+    </div>
+
+    <div className="mobile-option">
         <a href="#about">
         <i class="fi-rr-laptop option-icon"></i>About
         </a>

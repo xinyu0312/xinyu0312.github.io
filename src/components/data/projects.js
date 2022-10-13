@@ -18,7 +18,7 @@ export const ProjectData=[
       </ul>,
         tags:["HTML", "Javascript", "CSS"],
         period: "Nov 2021 - Dec 2021",
-        demo:"https://arts-in-prisons.pma.cornell.edu/",
+        link:"https://arts-in-prisons.pma.cornell.edu/",
         github:"https://github.coecis.cornell.edu/info1300-2021fa/blue-cheetah-project",
         image:require("../../assets/website.png"),
     },
@@ -35,7 +35,7 @@ on the board.</li>
         period: "May 2021",
         demo:"https://www.youtube.com/watch?v=uA88JC_iujc",
         github:"https://github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248",
-        report:"https://pages.github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248/",
+        link:"https://pages.github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248/",
         image:require("../../assets/simon.png"),
     },
 

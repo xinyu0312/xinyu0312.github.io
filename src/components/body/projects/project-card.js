@@ -12,15 +12,15 @@ function ProjectCard({ project }) {
           {project.demo && (
             <a className="project-link" href={project.demo}>
               <div className="link-button">
-                <i class="fi-rr-globe"></i>Demo
+                <i class="fi-rr-globe"></i>Video Demo
               </div>
             </a>
             )}
 
-          {project.report && (
-            <a className="project-link" href={project.demo}>
+          {project.link && (
+            <a className="project-link" href={project.link}>
               <div className="link-button">
-                <i class="fi-rr-globe"></i>Report
+                <i class="fi-rr-globe"></i>Website Link
               </div>
             </a>
             )}

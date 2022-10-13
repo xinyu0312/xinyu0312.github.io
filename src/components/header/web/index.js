@@ -5,6 +5,12 @@ function Web() {
   return <div className="web">
 
     <div className="web-option">
+        <a href="#top">
+        <i class="fi-rr-home option-icon"></i>Home
+        </a>
+    </div>
+
+    <div className="web-option">
         <a href="#about">
         <i class="fi-rr-laptop option-icon"></i>About
         </a>
