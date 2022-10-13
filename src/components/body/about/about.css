@@ -20,6 +20,11 @@
     justify-content: flex-end;
 }
 
+.about-section-subtitle{
+    font-size: 18px;
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 720px) {
     .about-list {
         max-width: 100%;

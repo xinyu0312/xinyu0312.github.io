@@ -8,11 +8,11 @@ function Main() {
         <div className="main-info">
           Hello There ✋,I am
          <br /> <span className="info-name">Xinyu Shen</span>.
-         <br /> I am a Software Engineer.
+         <br /> I am a Software Engineer and DevOps Engineer.
         </div>
         <div className="main-photo">
           <img 
-            src={require("../../../assets/coding.png")}
+            src={require("../../../assets/self.jpg")}
             className="picture"
           />
         </div>

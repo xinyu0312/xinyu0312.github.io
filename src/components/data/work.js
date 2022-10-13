@@ -4,7 +4,7 @@ export const WorkData = [
         designation: "DevOps Engineer Intern",
         dateJoining: "May 2022",
         dateEnd: "Aug 2022",
-        companyLogo:"https://cdn-icons-png.flaticon.com/512/5969/5969328.png",
+        companyLogo:"https://cdn-icons-png.flaticon.com/512/4401/4401470.png",
         work:<ul>
         <li>Developed a notification-relay API in Flask that monitoring Zoom services, following important notifications
 closely, and filtering spam notifications with knowledge of Machine Learning.</li>

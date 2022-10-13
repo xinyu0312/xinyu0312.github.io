@@ -1,0 +1,33 @@
+.education-card{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 16px 0px;
+    padding: 8px 0px; */
+}
+.education-photo{
+   width:30%;
+}
+
+.right{
+    display: grid;
+    place-items: center;
+}
+
+.education-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 720px) {
+    .education-photo {
+        width: 70%;
+    }
+    .education-card {
+        flex-direction: column-reverse;
+    }
+    .education-info {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+}
