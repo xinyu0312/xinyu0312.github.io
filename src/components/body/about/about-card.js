@@ -1,6 +1,6 @@
 import React from "react";
 import "./about-card.css";
-function SkillCard({ about }) {
+function AboutCard({ about }) {
   return (
    <div className="about-card">
      <div className="about-icon">{about.icon}</div>
@@ -11,4 +11,4 @@ function SkillCard({ about }) {
    </div>
   );
 }
-export default SkillCard;
+export default AboutCard;

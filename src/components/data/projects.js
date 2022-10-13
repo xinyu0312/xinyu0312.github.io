@@ -11,18 +11,6 @@ export const ProjectData=[
     },
     {
         id:2,
-        title:"Reponsive Portfolio",
-        main: "TODO I am using to React.JS,Javascript, HTML/CSS.This is portfolio website.",
-        tags:["ReactJS", "Javascript", "Firebase", "Portfolio"],
-        period: "Oct 2022-Nov 2022",
-        demo:"https://xinyu0312.github.io",
-        github:"https://github.com/xinyu0312/xinyu0312.github.io",
-        //TODO Change
-        image:"https://github.com/ThantZinPhyo-OP/Portfolio-Website/raw/main/home.png",
-    },
-
-    {
-        id:3,
         title:"Website Development",
         main: <ul>
         <li>Built a responsive website with interactivity for an actual client that supports mobile and desktop devices using HTML, CSS, and JavaScript.</li>
@@ -36,7 +24,7 @@ export const ProjectData=[
     },
 
     {
-        id:4,
+        id:3,
         title:"Embedded Simon",
         main: <ul>
         <li>Built Simon Memory Game in C as an Embedded System with the collaboration of two partners.</li>
@@ -52,7 +40,7 @@ on the board.</li>
     },
 
     {
-        id:5,
+        id:4,
         title:"Simulating Evolving Artificial Life",
         main: <ul>
         <li>Simulated a simple world of critters that wander around, eat food, reproduce, and evolve in Java with the
