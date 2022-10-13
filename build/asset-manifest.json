@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/xinyu0312.github.io/static/css/main.fb684077.css",
+    "main.js": "/xinyu0312.github.io/static/js/main.69b86684.js",
+    "static/js/787.749b4a44.chunk.js": "/xinyu0312.github.io/static/js/787.749b4a44.chunk.js",
+    "static/media/coding.png": "/xinyu0312.github.io/static/media/coding.6d171da87a4854819b72.png",
+    "static/media/cornell.png": "/xinyu0312.github.io/static/media/cornell.df3a30c67450293cfa95.png",
+    "index.html": "/xinyu0312.github.io/index.html",
+    "main.fb684077.css.map": "/xinyu0312.github.io/static/css/main.fb684077.css.map",
+    "main.69b86684.js.map": "/xinyu0312.github.io/static/js/main.69b86684.js.map",
+    "787.749b4a44.chunk.js.map": "/xinyu0312.github.io/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb684077.css",
+    "static/js/main.69b86684.js"
+  ]
+}
