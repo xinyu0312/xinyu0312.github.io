@@ -1,18 +1,30 @@
 export const WorkData = [
     {
-        company: "Web Developer" ,
-        designation: "Web Developer",
-        dateJoining: "11.10.2020",
-        dateEnd: "Present",
-        companyLogo:"https://cdn-icons-png.flaticon.com/512/2537/2537338.png",
-        work:"Freelance Front-End Web Developer with 1.5 years of experience developing, implementing and supporting websites for commercial and non-commercial clients.I have also Quick learner and problem-solving skills."
+        company: "Zoom Video Communications INC" ,
+        designation: "DevOps Engineer Intern",
+        dateJoining: "May 2022",
+        dateEnd: "Aug 2022",
+        companyLogo:"https://cdn-icons-png.flaticon.com/512/5969/5969328.png",
+        work:<ul>
+        <li>Developed a notification-relay API in Flask that monitoring Zoom services, following important notifications
+closely, and filtering spam notifications with knowledge of Machine Learning.</li>
+        <li>Set up a website with user accounts registration and login in React.js; Allowed the user to manage Zoom services
+and recipients, bind services and recipients in subscriptions, and set up filtering rules for services.</li>
+        <li>Utilized MySQL to store and use data. Saved persistent database in Amazon RDS.</li>
+        <li>Built Docker images for both frontend and backend projects, pushed them to Amazon ECR, and utilized
+Kubernetes to deploy code.</li>
+      </ul>
     },
     {
-        company: "Youtuber" ,
-        designation: "Youtuber",
-        dateJoining: "23.04.2021",
-        dateEnd: "Present",
-        companyLogo:"https://cdn-icons-png.flaticon.com/512/2537/2537415.png",
-        work:"I am an experienced and specializes in information technology.I bring you guys Latest Tips and Tricks for your mobile so that you can enjoy your Phone completely.Don't forget subscribe and like for more videos"
+        company: "Introduction to Computer Vision @ Cornell University" ,
+        designation: "Teacher Assitant",
+        dateJoining: "Jan 2022",
+        dateEnd: "May 2022",
+        companyLogo: require("../../assets/icons/cornell.png"),
+        work:<ul>
+        <li>Hold weekly office hours and Lab exercises. Made and graded homework and exams. </li>
+        <li>Helped students debug on their projects.</li>
+        <li>Milk</li>
+      </ul>
     },
 ]

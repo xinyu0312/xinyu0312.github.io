@@ -1,25 +1,36 @@
 import React from "react";
-import "./main.css";
-import SocialContact from "../../common/social-contact/index";
-function Main() {
+import Separator from "../../common/separator/index";
+import "./about.css";
+import {AboutData} from "../../data/about";
+import AboutCard from "./about-card";
+function About() {
+  const data = AboutData;
   return (
-    <div className="main">
-      <div className="main-top">
-        <div className="main-info">
-          Hello There ✋,I am
-         <br /> <span className="info-name">Xinyu Shen</span>.
-         <br /> I am a Software Engineer.
-        </div>
-        <div className="main-photo">
-          <img 
-            src={require("../../../assets/coding.png")}
-            className="picture"
-          />
-        </div>
-      </div>
-      <SocialContact />
+    <div className="about">
+      <Separator />
+    <label className="section-title">About Me</label>
+    
+    <div className="about-section-title">Education</div>
+    <p>Todo Add info</p>
+    <div className="about-container">
+      {data.map((item) => {
+        return (
+          <div className="about-section">
+            <label className="about-section-title">{item.type}</label>
+            <div className="about-list">
+              {item.list.map((about) => {
+                return <AboutCard about={about} />;
+              })}
+            </div>
+
+          </div>
+        );
+      })}
     </div>
-  );
+
+   
+  </div>
+ );
 }
 
-export default Main;
+export default About;
