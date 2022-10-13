@@ -72,7 +72,7 @@ export const AboutData = [
     ],
   },
   {
-    type: "Other Skills",
+    type: "Industry Skills",
     list: [
       {
         name: "MySQL",
