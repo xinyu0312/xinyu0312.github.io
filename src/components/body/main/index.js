@@ -6,9 +6,9 @@ function Main() {
     <div className="main">
       <div className="main-top">
         <div className="main-info">
-          Hello There ✋,I am
+          Hello There ✋, I am
          <br /> <span className="info-name">Xinyu Shen</span>.
-         <br /> I am a Software Engineer and DevOps Engineer.
+         <br /> I am a Software Engineer/DevOps Engineer.
         </div>
         <div className="main-photo">
           <img 

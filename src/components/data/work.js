@@ -24,7 +24,6 @@ Kubernetes to deploy code.</li>
         work:<ul>
         <li>Hold weekly office hours and Lab exercises. Made and graded homework and exams. </li>
         <li>Helped students debug on their projects.</li>
-        <li>Milk</li>
       </ul>
     },
 ]
