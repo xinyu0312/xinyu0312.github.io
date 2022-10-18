@@ -33,7 +33,7 @@ function Mobile({ isOpen, setIsOpen}) {
 
     <div className="mobile-option">
         <a href="#contact">
-        <i class="fi fi-rr-user option-icon"></i>Contact
+        <i class="fi-rr-envelope option-icon"></i>Contact
         </a>
     </div>
   </div>
