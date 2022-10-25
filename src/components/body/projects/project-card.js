@@ -12,7 +12,7 @@ function ProjectCard({ project }) {
           {project.demo && (
             <a className="project-link" href={project.demo}>
               <div className="link-button">
-                <i class="fi-rr-globe"></i>Video Demo
+              <i class="fa-solid fa-globe"></i>Video Demo
               </div>
             </a>
             )}
@@ -20,7 +20,7 @@ function ProjectCard({ project }) {
           {project.link && (
             <a className="project-link" href={project.link}>
               <div className="link-button">
-                <i class="fi-rr-globe"></i>Website Link
+              <i class="fa-solid fa-globe"></i>Website Link
               </div>
             </a>
             )}
