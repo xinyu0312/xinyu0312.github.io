@@ -49,7 +49,7 @@ collaboration of two partners.</li>
         <li>Built a graphical user interface (GUI) that enables a user to take control of individual critters.</li>
         <li>Built up server and client to enable multi-device login with different permission levels in thread-safe code.</li>
       </ul>,
-        tags:["python", "API"],
+        tags:["Java","JavaScript", "API"],
         period: "Oct 2019 - Dec 2019",
         demo:"https://drive.google.com/file/d/1k1rzg1ANCUsI3hZTFh0bXeCvn3ysB2qs/view?usp=sharing",
         github:"https://github.com/xinyu0312/Academic-Integrity",

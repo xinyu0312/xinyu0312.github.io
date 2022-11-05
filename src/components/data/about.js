@@ -50,6 +50,7 @@ export const AboutData = [
       },
       {
         name: "Verilog",
+
         image: require("../../assets/icons/verilog.png"),
       },
       {
