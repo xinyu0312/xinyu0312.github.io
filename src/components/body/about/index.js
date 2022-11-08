@@ -14,7 +14,7 @@ function About() {
       <Separator />
     <label className="section-title">About Me</label>
     {/* <div className="about-section-title">Profile</div> */}
-    <p>Currently I have a job, but am open to new Software Engineering/DevOps Engineering/startup opportunities. If you think I'm a good fit, please contant me via <a href="mailto:xs248@gmail.com">xs248@gmail.com</a>.</p>
+    <p>Currently I have a job, but am open to new Software Engineering/DevOps Engineering/startup opportunities. If you think I'm a good fit, please contant me via <a href="mailto:xs248@cornell.edu">xs248@cornell.edu</a>.</p>
     <div className="about-section-title">Education</div>
 
       <div>

@@ -2,7 +2,10 @@ export const ProjectData=[
     {
         id:1,
         title:"Snake Game",
-        main: "Todo",
+        main:  <ul>
+        <li>Using the particle system to build Snake Game in TypeScript.</li>
+        <li>Supported normal mode(use arrow key to direct the sanke) and advance mode(use mouse to direct the snake to eat the apple).</li>
+      </ul>,
         tags:["TypeScript"],
         period: "Oct 2022",
         demo:"https://drive.google.com/file/d/1y9rF6wXz-5YF5CDvdMs9wFjHy2iOX6nw/view?usp=sharing",

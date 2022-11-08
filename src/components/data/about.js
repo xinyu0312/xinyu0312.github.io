@@ -50,12 +50,11 @@ export const AboutData = [
       },
       {
         name: "Verilog",
-
-        image: require("../../assets/icons/verilog.png"),
+        icon: <img src={ require("../../assets/icons/verilog.png")} className = "about-image"/>
       },
       {
         name: "Harmony",
-        image: require("../../assets/icons/harmony.ico"),
+        icon: <img src={ require("../../assets/icons/harmony.ico")} className = "about-image"/>
       },
       {
         name: "flask",
@@ -94,7 +93,7 @@ export const AboutData = [
       },
       {
         name: "Machine Learning",
-        image: require("../../assets/icons/ml.png"),
+        icon: <img src={ require("../../assets/icons/ml.png")} className = "about-image" />
       },
     ],
   },
