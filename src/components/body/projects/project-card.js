@@ -24,6 +24,22 @@ function ProjectCard({ project }) {
               </div>
             </a>
             )}
+            {project.written && (
+            <a className="project-link" href={project.written}>
+              <div className="link-button">
+              <i class="fa-solid fa-book"></i>Written Work
+              </div>
+            </a>
+            )}
+
+{project.slides && (
+            <a className="project-link" href={project.slides}>
+              <div className="link-button">
+              <i class="fa-solid fa-book"></i>Slides
+              </div>
+            </a>
+            )}
+
             {project.github&& (
               <a className="project-link" href={project.github}>
                 <div className="link-button">

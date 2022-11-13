@@ -1,5 +1,27 @@
 export const ProjectData=[
     {
+      id:0,
+      title:"Tic-Tac-Toe Matryoshka(User VS AI)",
+      main:  <ul>
+      <li>Implemented MinMax Algorithm in the Tic-Tac-Toe game in python.</li>
+      <li>Displayed the game(GUI) in Tkinter.</li>
+      <li>AI will determine the best next step after user put a piece.</li>
+      <li>Game Rule 
+        <ul>
+        <li>Matryoshka Tic-Tac-Toe is an advanced mode of normal tic-tac-toe.</li>
+        <li>Player needs to line up 3 in a row to win, either horizontally, vertically, or diagonally.</li>
+        <li>(BIG EATS SMALL) Player can gobble up his opponent’s pieces to take their place if the player’s piece is larger than his opponent’s.</li>
+         
+         </ul>
+        </li>
+    </ul>,
+      tags:["Python", "AI", "Tkinter"],
+      period: "Nov 2022",
+      slides:"https://docs.google.com/presentation/d/1cL5lPQbh0u1hCw9d8C5aHVErlJ8YU6v3SQKRyyWxmj4/edit?usp=sharing",
+      github:"https://github.com/xinyu0312/Academic-Integrity",        
+      image:  require("../../assets/tic.png"),
+  },
+      {
         id:1,
         title:"Snake Game",
         main:  <ul>
@@ -38,7 +60,7 @@ on the board.</li>
         period: "May 2021",
         demo:"https://www.youtube.com/watch?v=uA88JC_iujc",
         github:"https://github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248",
-        link:"https://pages.github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248/",
+        written:"https://pages.github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248/",
         image:require("../../assets/simon.png"),
     },
 
@@ -57,5 +79,6 @@ collaboration of two partners.</li>
         demo:"https://drive.google.com/file/d/1k1rzg1ANCUsI3hZTFh0bXeCvn3ysB2qs/view?usp=sharing",
         github:"https://github.com/xinyu0312/Academic-Integrity",
         image: require("../../assets/critters.png"),
+        // alt: "Picture Demo of Simulating Evolving Artificial Life"
     }
 ];
