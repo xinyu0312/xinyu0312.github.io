@@ -7,14 +7,14 @@
     align-items: center;
 
     /* background-color: azure; */
-    background-color: white;
+    background-color: #F2FFFF;
     position: fixed; 
     width: 70%;
     top: 0px;
     overflow: hidden;
 }
 .menu{
-    background-color: white;
+    background-color:#F2FFFF;
     display: flex;
     flex: 1;
     justify-content: flex-end;
