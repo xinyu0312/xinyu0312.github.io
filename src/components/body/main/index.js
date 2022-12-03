@@ -13,6 +13,7 @@ function Main() {
         <div className="main-photo">
           <img 
             src={require("../../../assets/self.jpg")}
+            alt = "Xinyu Shen's biography"
             className="picture"
           />
         </div>

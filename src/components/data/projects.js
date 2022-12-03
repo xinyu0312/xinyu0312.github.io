@@ -20,6 +20,7 @@ export const ProjectData=[
       slides:"https://docs.google.com/presentation/d/1cL5lPQbh0u1hCw9d8C5aHVErlJ8YU6v3SQKRyyWxmj4/edit?usp=sharing",
       github:"https://github.com/xinyu0312/Academic-Integrity",        
       image:  require("../../assets/tic.png"),
+      alt: "Image demo for Tic-Tac-Toe Matryoshka Project: each side of user has 6 pieces of Matryoshka in different size to play. "
   },
       {
         id:1,
@@ -33,6 +34,7 @@ export const ProjectData=[
         demo:"https://drive.google.com/file/d/1y9rF6wXz-5YF5CDvdMs9wFjHy2iOX6nw/view?usp=sharing",
         github:"https://github.com/xinyu0312/Academic-Integrity",        
         image:  require("../../assets/snake-game.png"),
+        alt:"Image demo for snake game: snake in particles runs on a green background. Top-Right bar has the contoller to change the frame size, snake base color, snake speed."
     },
     {
         id:2,
@@ -46,6 +48,7 @@ export const ProjectData=[
         link:"https://arts-in-prisons.pma.cornell.edu/",
         github:"https://github.coecis.cornell.edu/info1300-2021fa/blue-cheetah-project",
         image:require("../../assets/website.png"),
+        alt:"A screenshot of the responsive website Xinyu and her team created. The website is about INCARCERATION IN THE ARTS AT CORNELL."
     },
 
     {
@@ -62,6 +65,7 @@ on the board.</li>
         github:"https://github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248",
         written:"https://pages.github.coecis.cornell.edu/ece3140-sp2021/bvv4-ww333-xs248/",
         image:require("../../assets/simon.png"),
+        alt:"Xinyu's partner is holding the board FRDM-KL25Z and shows how to play Embedded Simon on the board."
     },
 
     {
@@ -79,6 +83,6 @@ collaboration of two partners.</li>
         demo:"https://drive.google.com/file/d/1k1rzg1ANCUsI3hZTFh0bXeCvn3ysB2qs/view?usp=sharing",
         github:"https://github.com/xinyu0312/Academic-Integrity",
         image: require("../../assets/critters.png"),
-        // alt: "Picture Demo of Simulating Evolving Artificial Life"
+        alt: "Critters are representing in little circles and living on honeycomb lattice。"
     }
 ];
